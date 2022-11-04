@@ -1,0 +1,50 @@
+.cardSection-container
+{
+    display: flex;
+    
+    justify-content: space-around;
+    width: 80%;
+    margin: 1em auto 0.5em auto;   
+   
+}
+.cardSection-warpper
+{
+    width:15%;
+    margin: 10px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.card-img
+{
+    width: 70%;
+    margin: 0px;
+}
+.card-temp
+{
+    display: flex;
+    width: 50%;
+    margin-top: 0px;
+
+    justify-content: space-around;
+}
+.card-day
+{
+    color: beige;
+    margin-bottom: 0px;
+}
+.day-temp
+{
+    color: beige;
+}
+.night-temp
+{
+    color:#f1e4dba0;;
+}
+.cardSection-warpper:hover
+{
+background-color:rgba(11, 9, 9, 0.293);
+border-radius: 20px;
+}
